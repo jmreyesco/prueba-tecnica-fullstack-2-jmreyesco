@@ -1,0 +1,9 @@
+name: CI Placeholder
+on: [push]
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "CI listo para que el candidato lo configure"
+
